@@ -1,0 +1,5 @@
+nome = input('Digite seu nome completo: ')
+nome = nome.split()
+cont = len(nome)
+print('Primeiro nome: {}'.format(nome[0]))
+print('Segundo nome: {}'.format(nome[len(nome)-1]))
